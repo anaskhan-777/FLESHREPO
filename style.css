@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    background-color: black;  
+}
+.box{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.boxes{
+    height: 300px;
+    width: 300px;
+    background-color: white;
+    background-image: url(https://i.pinimg.com/736x/0e/65/14/0e6514431cc19a416605dfeba84809b1.jpg);
+    background-position: center;
+    background-size: contain;
+    border-radius: 15px;
+    background-repeat: no-repeat;
+}
+
+.boxes:nth-child(2){
+    background-image:url(https://i.pinimg.com/736x/eb/10/e5/eb10e57b6f6786a83197c7f1191060ce.jpg);
+}
+
+.boxes:nth-child(3){
+    background-image: url(https://t4.ftcdn.net/jpg/08/16/54/37/360_F_816543770_37YWOjluGwFuEBPbj5Qzggeerqm4rV9u.jpg);
+}
+.boxess{
+    height: 300px;
+    width: 300px;
+    background-color: white;
+    background-image: url(https://static.vecteezy.com/system/resources/previews/048/086/221/non_2x/a-blue-sport-bike-motorcycle-isolated-on-a-transparent-background-free-png.png);
+    background-position: center;
+    background-size: cover;
+    border-radius: 15px;
+}
+.boxess:nth-child(2){
+    background-image: url(https://www.pngitem.com/pimgs/m/23-230899_ducati-1098-sport-motorcycle-bike-png-image-yamaha.png);
+}
+.boxess:nth-child(3){
+    background-image: url(https://t4.ftcdn.net/jpg/08/16/54/51/360_F_816545138_c7v623APkaRJyJbbNA0MeM98f0TiH5jm.jpg);
+}
+.boxesss{
+    height: 300px;
+    width: 300px;
+    background-color: white;
+    background-image: url(https://img.freepik.com/premium-photo/3d-red-super-sports-motorbike-white-isolated-background-3d-illustration_101266-6981.jpg?semt=ais_hybrid&w=740);
+    background-position: center;
+    background-size: cover;
+    border-radius: 15px;
+}
+.boxesss:nth-child(2){
+    background-image: url(https://atlas-content-cdn.pixelsquid.com/assets_v2/357/3571443342908593944/jpeg-600/G03.jpg);
+}
+.boxesss:nth-child(3){
+    background-image: url(https://img.freepik.com/premium-photo/3d-black-super-sports-motorbike-white-isolated-background-3d-illustration_101266-9317.jpg?semt=ais_hybrid&w=740);
+}
+.boxes:hover{
+    box-shadow: 34px 6px 400px 52px rgba(245, 5, 5, 0.986);
+-webkit-box-shadow: 34px 6px 400px 52px #fb0606fa;
+-moz-box-shadow: 34px 6px 400px 52px rgb(247, 0, 0);
+transition: 0.6s
+}
+.boxess:hover{
+    box-shadow: 34px 6px 400px 52px rgba(245, 5, 5, 0.986);
+-webkit-box-shadow: 34px 6px 400px 52px #fb0606fa;
+-moz-box-shadow: 34px 6px 400px 52px rgb(247, 0, 0);
+transition: 0.6s;
+}
+.boxesss:hover{
+    box-shadow: 34px 6px 400px 52px rgba(245, 5, 5, 0.986);
+-webkit-box-shadow: 34px 6px 400px 52px #fb0606fa;
+-moz-box-shadow: 34px 6px 400px 52px rgb(247, 0, 0);
+transition: 0.6s;
+}
